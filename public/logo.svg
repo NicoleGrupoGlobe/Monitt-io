@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Outer ring -->
+  <circle cx="100" cy="100" r="90" fill="#0A1A06" stroke="#30BF12" stroke-width="6"/>
+  <!-- Middle ring -->
+  <circle cx="100" cy="100" r="62" fill="none" stroke="#30BF12" stroke-width="4"/>
+  <!-- Inner ring -->
+  <circle cx="100" cy="100" r="35" fill="none" stroke="#30BF12" stroke-width="3"/>
+  <!-- Cross hairs -->
+  <line x1="100" y1="10" x2="100" y2="190" stroke="#30BF12" stroke-width="2" stroke-dasharray="6 4" opacity="0.4"/>
+  <line x1="10" y1="100" x2="190" y2="100" stroke="#30BF12" stroke-width="2" stroke-dasharray="6 4" opacity="0.4"/>
+  <!-- Center dot -->
+  <circle cx="100" cy="100" r="10" fill="#30BF12"/>
+  <!-- Sweep arc (radar effect) -->
+  <path d="M100,100 L100,38 A62,62 0 0,1 154,131 Z" fill="#30BF12" opacity="0.15"/>
+</svg>
